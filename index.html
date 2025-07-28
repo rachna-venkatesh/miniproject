@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KS Institute of Technology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-container">
+        <h2 class="sub-heading">Kammavari Sangham (R) 1952, K.S. Group of Institutions</h2>
+
+        <header class="header">
+            <img src="images/ksit-logo.png" alt="KSIT Logo" class="ksit-logo">
+            <div class="text-container">
+                <h1 class="main-heading">KS Institute of Technology</h1>
+                <p class="address">
+                    No.14, Raghuvanahalli, Kanakapura Road, Bengaluru - 560109, 9900710055
+                    <br>Affiliated to VTU, Belagavi & Approved by AICTE, New Delhi, Accredited by NBA, NAAC & IEI
+                </p>
+            </div>
+        </header>
+    </div>
+    <div class="auth-container">
+        <div class="login-section">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="Email" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <select id="login-user-type">
+                    <option value="student">Student</option>
+                    <option value="alumni">Alumni</option>
+                </select>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <div class="signup-section">
+            <h2>Create Profile</h2>
+            <form id="signup-form">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="signup-email" placeholder="Email" required>
+                <input type="password" id="signup-password" placeholder="Password" required>
+                <select id="signup-user-type">
+                    <option value="student">Student</option>
+                    <option value="alumni">Alumni</option>
+                </select>
+                <div id="student-fields" class="additional-fields">
+                    <input type="text" id="university" placeholder="Current University">
+                    <input type="text" id="major" placeholder="Major">
+                    <input type="text" id="graduation-year" placeholder="Expected Graduation Year">
+                </div>
+                <div id="alumni-fields" class="additional-fields" style="display:none;">
+                    <input type="text" id="alumni-university" placeholder="Graduated From">
+                    <input type="text" id="graduation-year-alumni" placeholder="Graduation Year">
+                    <input type="text" id="current-company" placeholder="Current Company">
+                </div>
+                <button type="submit">Create Profile</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>  <!-- app.js contains your main application logic -->
+</body>
+</html>
+
