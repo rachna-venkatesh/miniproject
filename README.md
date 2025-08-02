@@ -37,22 +37,7 @@ A web-based application designed for students and alumni of **KS Institute of Te
 └── images/            # Contains KSIT logo (required)
 ```
 
-## 🚀 Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/miniproject.git
-   ```
-
-2. Open `index.html` in any modern browser.
-
-3. You can now register as a **student** or **alumni** and begin interacting.
-
-> 💡 Note: All data is stored in your browser using `localStorage`. Refreshing or clearing site data will reset the users and messages.
-
-## 🖼️ UI Snapshot
-
-![Dashboard Preview](images/ksit-logo.png)
 
 ## 📌 Future Enhancements
 
